@@ -60,9 +60,9 @@ Here, the variable `beyonce` has a global scope and it is currently sitting outs
     console.log(jayZ); // error: jayZ is not defined
     console.log(beyonce); // Hi, I'm Beyonce!
 ```
-We will get an error because `jayZ` is not available outside the function and also Jay Z has no business being out of breath off stage. Keep up Jay Z, geesh! Jay Z would only be available when the onStage() function is called.
+We will get an error because `jayZ` is not available outside the function and also Jay Z has no business being out of breath off stage. Keep up Jay Z, geesh! `jayZ` would only be available when the onStage() function is called.
 
-Also, the beyonce variable inside the onStage() function can only be accessed inside the function. Outside of the function, beyonce's value is "Hi, I'm Beyonce!". She can't be Sasha Fierce until she's onStage() or until onStage() function is called.
+Also, the `beyonce` variable inside the onStage() function can only be accessed inside the function. Outside of the function, `beyonce`'s value is "Hi, I'm Beyonce!". She can't be Sasha Fierce until she's onStage() or until onStage() function is called.
 
 <ins>As you can see within the above variable, var can be <strong>re-declared</strong> and <strong>updated</strong>.</ins>
 
@@ -78,7 +78,7 @@ or:
     var beyonce = "Hi, I'm Beyonce Knowles.";
     beyonce = "Hi, I'm Beyonce Carter.";
 ```
-For JavaScript, this throws no error. However, for the programmer this can be problematic. We expect beyonce to equal "Hi, I'm Beyonce Knowles.", but later in our JavaScript code, we redefined it and JavaScript said nothing! This can lead to unintended side-effects and we should be very careful when using `var` to declare variables.
+For JavaScript, this throws no error. However, for the programmer this can be problematic. We expect beyonce to equal `"Hi, I'm Beyonce Knowles."`, but later in our JavaScript code, we redefined it and JavaScript said nothing! This can lead to unintended side-effects and we should be very careful when using `var` to declare variables.
 
 
 This is why the <strong>let</strong> and <strong>const</strong> variable is an important addition to our JavaScript arsenal!
