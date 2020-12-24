@@ -1,6 +1,6 @@
 # What is `use strict`
 
-According to W3Schools
+According to [W3Schools](https://www.w3schools.com/js/js_strict.asp),
 
 The "use strict" directive was new in ECMAScript version 5.
 
