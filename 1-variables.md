@@ -60,7 +60,7 @@ Here, the variable `beyonce` has a global scope and it is currently sitting outs
     console.log(jayZ); // error: jayZ is not defined
     console.log(beyonce); // Hi, I'm Beyonce!
 ```
-We will get an error because Jay Z is not available outside the function and also Jay Z has no business being out of breath off stage. Keep up Jay Z, geesh! Jay Z would only be available when the onStage() function is called.
+We will get an error because `jayZ` is not available outside the function and also Jay Z has no business being out of breath off stage. Keep up Jay Z, geesh! Jay Z would only be available when the onStage() function is called.
 
 Also, the beyonce variable inside the onStage() function can only be accessed inside the function. Outside of the function, beyonce's value is "Hi, I'm Beyonce!". She can't be Sasha Fierce until she's onStage() or until onStage() function is called.
 
