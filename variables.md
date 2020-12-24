@@ -18,7 +18,7 @@ To <strong>assign</strong> a value to the variable, use the equal sign:
 
     var first = 'lenora';
 
-1. The word `var` lets us know what type of variable we're creating
+1. The word `var` lets us know what type of variable we're creating (Remember, there are 3 types `var`, `let`, and `const`)
 2. `first` tells us know the name of the variable
 3. `=` lets us know we are setting this variable to whatever that follows it
 4. `lenora` is the string we are setting the variable to.
