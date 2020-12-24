@@ -9,7 +9,7 @@ let ciara = "I'm in love with Future."
 console.log(ciara); //Uncaught SyntaxError: Identifier 'ciara' has already been declared
 ```
 
-However, if you change `let` to `var`, `var` variables will let you redeclare your variables.
+However, if you change `let` to `var`, `var` variables will let you redeclare your variables within the same scope.
 
 ```JavaScript
 var ciara = "My husband is Russell Wilson.";
