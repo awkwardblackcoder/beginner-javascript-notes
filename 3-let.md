@@ -17,11 +17,12 @@ var ciara = "I'm in love with Future."
 
 console.log(ciara); //I'm in love with Future.
 ```
+Potential bugs can ensue if the developer isn't aware that they've redeclared a variable or used `ciara` as a variable name earlier in their code. `let` allows the developer to get a nifty Syntax Error and clearly states the potential risk before it happens.
 
-With this particular scope, ciara was already defined! We can’t redefine ciara within that same scope…. she is a changed woman!
+When using `let`, the syntax error lets us know `ciara` was already defined! We can’t redefine `ciara` within that same scope…. she is a changed woman!
 
 
-However, you can <strong>declare</strong> the same variable in different scopes and there will be no error.
+However, you can <strong>update</strong> the same variable in different scopes and there will be no error.
 
 ``` JavaScript
 
