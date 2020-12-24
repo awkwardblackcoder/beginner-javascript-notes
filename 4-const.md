@@ -16,6 +16,7 @@ While  `const` can’t be updated or re-declared, the properties of this object 
 const theeStallionProfile = {
   name: "Megan Pete",
   stageName: "Megan Thee Stallion",
+  alias: "The Hot Girl Coach"
   situationShip: "MoneyBagYo",
   pets: {
     name: "4oe",
