@@ -1,6 +1,6 @@
 In 2015, ECMAScript 6 introduced the let and const variable. `let` is a JavaScript variable that is very similar to `var`; however, it gives you the luxury of declaring variables in a limited scope. 
 
-Like `var`, a variable declared with `let` can be <strong>updated</strong> within the same scope; however, unlike `var`, let cannot be <strong>redeclared</strong> within the same scope. Here's an example of updating versus redeclaring.
+Like `var`, a variable declared with `let` can be <strong>updated</strong> within the same scope; however, unlike `var`, let cannot be <strong>redeclared</strong> within the same scope. Here's an example of updating versus redeclaring within the same scope.
 
 ```JavaScript
 let ciara = "My husband is Russell Wilson.";
