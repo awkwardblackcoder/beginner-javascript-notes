@@ -1,4 +1,4 @@
-# Javascript Statement
+# Javascript Statements
 
 According to [W3Schools](https://www.w3schools.com/js/js_statements.asp),
 
