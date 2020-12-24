@@ -1,23 +1,5 @@
 In 2015, ECMAScript 6 introduced the let and const variable. `let` is a JavaScript variable that is very similar to `var`; however, it gives you the luxury of declaring variables in a limited scope. The `let` variable is blocked scoped. A block is code bounded by curly braces {} (Examples of code blocks: If statements, loops, functions, etc.). If the `let` variable is declared within those curly braces, it is only available within that block (unlike `var`). 
 
-Let compare `var` and `let` using Ciara’s hit song Level Up.
-
-```JavaScript
-let sayLevelUp = "Level Up! ";
-let times = 5;
-
-if (times >= 1) {
-  let lyrics = sayLevelUp.repeat(times);
-  console.log(lyrics); // Level Up! Level Up! Level Up! Level Up! Level Up! 
-}
-
-console.log(lyrics); // Uncaught ReferenceError: lyrics is not defined
-```
-
-Inside the code block (if statement), we are able to access the variable lyrics, but outside of the code block, we are told lyrics isn’t defined. This illustrates the point that `let` allows you to declare variables in a limited scope (block scope) instead of globally or within a function like `var`. This allows `let` to be updated but never re-declared.
-
-(Homework: Change all the `let` variables to `var`, compare the console.log statements and tell me the difference between `let` and `var` in this example.)
-
 
 Like `var`, a variable declared with `let` can be updated within its scope; however, unlike `var`, let cannot be redeclared within the same scope.
 
