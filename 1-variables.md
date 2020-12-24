@@ -25,8 +25,8 @@ To <strong>assign</strong> a value to the variable, use the equal sign:
 1. The word `var` lets our computer know what type of variable we're creating (Remember, there are 3 types: `var`, `let`, and `const`)
 2. `firstName` lets our computer know the name of the variable
 3. `=` lets our computer know we are setting this variable to whatever that follows it
-4. `'lenora'` is the string we are setting the variable to.
-5. The `;` lets our computer know we have ended the statement.
+4. `'lenora'` is the string we are setting the variable to
+5. The `;` lets our computer know we have ended the statement
 
 ### <ins>Var declarations are global scope or function/local scope</ins> 
 
