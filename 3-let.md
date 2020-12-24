@@ -31,9 +31,9 @@ let currentYear = 2019;
 
 if (currentYear <= 2015 && currentYear >= 2013) {
   let ciara = "I'm in love with Future."
-  console.log(ciara);
+  console.log(ciara); // I'm in love with Future.
 }
-console.log(ciara);
+console.log(ciara); // My husband is Russell Wilson.
 ```
 
 In 2013-2015, Ciara was ALL about Future but in `currentYear` 2019, her husband is Russell Wilson. Ciara is only in love with future within the scope of 2013-2015.
