@@ -18,7 +18,7 @@ To <strong>assign</strong> a value to the variable, use the equal sign:
 
     var first = 'lenora';
 
-<ins>The structure of a statement</ins>:
+<ins>The structure of the [Javascript statement](https://www.w3schools.com/js/js_statements.asp) above</ins>:
 
 1. The word `var` lets our computer know what type of variable we're creating (Remember, there are 3 types `var`, `let`, and `const`)
 2. `first` tells our computer know the name of the variable
