@@ -4,7 +4,18 @@ Like `var`, a variable declared with `let` can be <strong>updated</strong> withi
 
 ```JavaScript
 let ciara = "My husband is Russell Wilson.";
-let ciara = "I'm in love with Future." //Uncaught SyntaxError: Identifier 'ciara' has already been declared
+let ciara = "I'm in love with Future."
+
+console.log(ciara); //Uncaught SyntaxError: Identifier 'ciara' has already been declared
+```
+
+However, if you change `let` to `var`, `var` variables will let you redeclare your variables.
+
+```JavaScript
+var ciara = "My husband is Russell Wilson.";
+var ciara = "I'm in love with Future." 
+
+console.log(ciara); //I'm in love with Future.
 ```
 
 With this particular scope, ciara was already defined! We can’t redefine ciara within that same scope…. she is a changed woman!
