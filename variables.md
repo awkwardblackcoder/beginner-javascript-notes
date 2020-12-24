@@ -2,7 +2,7 @@
 
 JavaScript variables are containers for storing data values. Before ES6, `var` was the only way to create variable declarations.
 
-_How to create a variable?_
+<ins>How to create a variable?</ins>
 
 Creating a variable in JavaScript is called "declaring" a variable.
 
@@ -50,7 +50,7 @@ We will get an error because Jay Z is not available outside the function and als
 
 Also, the beyonce variable inside the onStage() function can only be accessed inside the function. Outside of the function, beyonce's value is "Hi, I'm Beyonce!". She can't be Sasha Fierce until she's onStage() or until onStage() function is called.
 
-_As you can see within the above variable, var can be re-declared and updated._
+<ins>As you can see within the above variable, var can be re-declared and updated.</ins>
 
 
 That means we can do something like this:
