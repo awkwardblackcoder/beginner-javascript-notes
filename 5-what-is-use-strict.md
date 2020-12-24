@@ -2,7 +2,7 @@
 
 According to [W3Schools](https://www.w3schools.com/js/js_strict.asp),
 
-The "use strict" directive was new in ECMAScript version 5.
+The `use strict` directive was new in ECMAScript version 5.
 
 It is not a statement, but a literal expression, ignored by earlier versions of JavaScript.
 
@@ -14,26 +14,22 @@ With strict mode, you can not, for example, use undeclared variables.
 
 Without use strict:
 ```JavaScript
-<script>
 'use strict'
 
 first = `lenora`;
 
 console.log(first); // Lenora
 
-</script>
 ```
 
 
 Using use strict:
 
 ```JavaScript
-<script>
 'use strict'
 
 first = `lenora`;
 
 console.log(first); // ReferenceError: first is not defined
 
-</script>
 ```
