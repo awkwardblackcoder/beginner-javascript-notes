@@ -15,7 +15,7 @@ While  `const` can’t be updated or re-declared, the properties of this object 
 ```JavaScript
 const theeStallionProfile = {
   name: "Megan Jovon Ruth Pete",
-  stageName: "Megan Thee Stallion",
+  rapName: "Megan Thee Stallion",
   alias: "The Hot Girl Coach",
   situationShip: "MoneyBagYo",
   pets: {
