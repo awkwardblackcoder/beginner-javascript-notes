@@ -1,16 +1,29 @@
 # Variables and Statements
 
+JavaScript variables are containers for storing data values. Before ES6, `var` was the only way to create variable declarations.
 
-    var first; 
+_How to create a variable?_
 
+Creating a variable in JavaScript is called "declaring" a variable.
 
+You declare a JavaScript variable with the `var`, `let`, or `const` keyword (Today, we will focus on `var`):
+
+    var first;
+
+After the declaration, the variable has no value (technically it has the value of undefined).
+
+To assign a value to the variable, use the equal sign:
 
     var first = 'lenora';
     
+Var declarations are global scope or function/local scope. 
 
-Before ES6, `var` was the way to create variable declarations. Scope:  `var` declarations are globally scoped or function/locally scoped. It is globally scoped when `var` is declared outside a function; however, if `var` is declared within a function it is function scoped. 
+Global Scope: All scripts and functions on a web page can access it. 
 
-To understand this further, look at the example below.
+Function/Local scope: They can only be accessed from within the function.
+
+
+To understand this further, look at the example below:
 
 
     var beyonce = "Hi, I'm Beyonce!"; // Globally Scoped
@@ -20,7 +33,7 @@ To understand this further, look at the example below.
       var JayZ = "I am out of breath!"; // Functionally Scoped
     }
 
-Here, `beyonce` is globally scoped and it is currently sitting outside the function. `JayZ` is function scoped and it sits inside the function. So, if we do something like this:
+Here, the variable beyonce has a global scope and it is currently sitting outside the function. The Jay Z variable has a function scope and it sits inside the function. So, if we do something like this:
 
 
 
@@ -33,9 +46,12 @@ Here, `beyonce` is globally scoped and it is currently sitting outside the funct
     console.log(JayZ); // error: JayZ is not defined
     console.log(beyonce); // Hi, I'm Beyonce!
 
-We will get an error because `JayZ` is not available outside the function and also `JayZ` has no business being out of breath off stage. Keep up Jay Z, geesh! `JayZ` would be available only when the `onStage()` function is called.
+We will get an error because Jay Z is not available outside the function and also Jay Z has no business being out of breath off stage. Keep up Jay Z, geesh! Jay Z would only be available when the onStage() function is called.
 
-As you can see within the above variable, `var` can be re-declared and updated.
+Also, the beyonce variable inside the onStage() function can only be accessed inside the function. Outside of the function, beyonce's value is "Hi, I'm Beyonce!". She can't be Sasha Fierce until she's onStage() or until onStage() function is called.
+
+_As you can see within the above variable, var can be re-declared and updated._
+
 
 That means we can do something like this:
 
@@ -48,6 +64,7 @@ or:
     var beyonce = "Hi, I'm Beyonce Knowles.";
     beyonce = "Hi, I'm Beyonce Carter.";
 
-For JavaScript, this throws no error. However, for the programmer this can be problematic. We expect `beyonce` to equal `Hi, I``'``m Beyonce Knowles.` but later in our JavaScript code, we redefined it and JavaScript said nothing! This is can unintended side-effects and we should be very careful when using `var` to declare variables.
+For JavaScript, this throws no error. However, for the programmer this can be problematic. We expect beyonce to equal "Hi, I'm Beyonce Knowles.", but later in our JavaScript code, we redefined it and JavaScript said nothing! This can lead to unintended side-effects and we should be very careful when using `var` to declare variables.
 
-This is why the `let` and `const` variable is an important addition to our JavaScript arsenal!
+
+This is why the let and const variable is an important addition to our JavaScript arsenal!
