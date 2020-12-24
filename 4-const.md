@@ -3,8 +3,8 @@
 Const is a blocked scope variable which maintains constant values. Const cannot be updated or re-declared.
 
 ``` JavaScript 
-const meganOnStage = "Hi, I'm Megan Thee Stallion."
-meganOnStage = "Hi, I'm Jovon Ruth Pete." // error: Identifier 'megan' has already been declared
+const meganFullName = "Hi, I'm Megan Jovon Ruth Pete."
+meganFullName = "Hi, I'm Jovon." // error: Identifier 'megan' has already been declared
 ```
 Again, `const` variables cannot be updated or redeclared. Every const declaration must be initialized at the time of declaration.
 
@@ -14,7 +14,7 @@ While  `const` can’t be updated or re-declared, the properties of this object 
 
 ```JavaScript
 const theeStallionProfile = {
-  name: "Megan Pete",
+  name: "Megan Jovon Ruth Pete",
   stageName: "Megan Thee Stallion",
   alias: "The Hot Girl Coach",
   situationShip: "MoneyBagYo",
