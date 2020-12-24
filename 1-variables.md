@@ -62,7 +62,7 @@ Here, the variable `beyonce` has a global scope and it is currently sitting outs
 ```
 We will get an error because `jayZ` is not available outside the function and also Jay Z has no business being out of breath off stage. Keep up Jay Z, geesh! `jayZ` would only be available within the onStage() function.
 
-Also, the `beyonce` variable inside the onStage() function can only be accessed inside the function. Outside of the function, `beyonce`'s value is "Hi, I'm Beyonce!". She can't be Sasha Fierce until she's onStage() or until onStage() function is called.
+Also, the `beyonce` variable inside the onStage() function can only be accessed inside the function. Outside of the function, `beyonce`'s value is `"Hi, I'm Beyonce!"`. She can't be Sasha Fierce until she's onStage() or until onStage() function is called.
 
 <ins>As you can see within the above variable, var can be <strong>re-declared</strong> and <strong>updated</strong>.</ins>
 
