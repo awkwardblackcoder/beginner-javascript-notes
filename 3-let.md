@@ -22,7 +22,7 @@ Potential bugs can ensue if the developer isn't aware that they've redeclared a 
 When using `let`, the syntax error lets us know `ciara` was already defined! We can’t redefine `ciara` within that same scope…. she is a changed woman!
 
 
-However, you can <strong>declare</strong> the same variable in different scopes and there will be no error.
+However, you can <strong>declare</strong> the same variable in <strong>different scopes</strong> and there will be no error.
 
 ``` JavaScript
 
