@@ -10,20 +10,20 @@ You declare a JavaScript variable with the `var`, `let`, or `const` keyword. (To
 
 Here's an example of declaring a variable:
 ```JavaScript
-    var first;
+    var firstName;
 ```
 
 After the declaration, the variable has no value (technically it has the value of undefined).
 
 To <strong>assign</strong> a value to the variable, use the equal sign:
 ```JavaScript
-    var first = 'lenora';
+    var firstName = 'lenora';
 ```
 
 <ins>The structure of the [Javascript statement](https://www.w3schools.com/js/js_statements.asp) above</ins>:
 
 1. The word `var` lets our computer know what type of variable we're creating (Remember, there are 3 types: `var`, `let`, and `const`)
-2. `first` tells our computer know the name of the variable
+2. `firstName` tells our computer know the name of the variable
 3. `=` lets our computer know we are setting this variable to whatever that follows it
 4. `'lenora'` is the string we are setting the variable to.
 5. The `;` lets our computer know we have ended the statement.
