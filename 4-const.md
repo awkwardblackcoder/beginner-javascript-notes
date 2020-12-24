@@ -1,3 +1,5 @@
+# Const Variables
+
 Const is a blocked scope variable which maintains constant values. Const cannot be updated or re-declared.
 
 ``` JavaScript 
