@@ -14,14 +14,13 @@ With strict mode, you can not, for example, use undeclared variables.
 
 Without use strict:
 ```JavaScript
-'use strict'
 
 first = `lenora`;
 
 console.log(first); // Lenora
 
 ```
-
+This method is prone to nasty bugs so the use strict method was created to force the developer to catch themselves when they forget to set variables.
 
 Using use strict:
 
