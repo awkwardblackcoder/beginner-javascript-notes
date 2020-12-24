@@ -24,7 +24,7 @@ const theeStallionProfile = {
   }
 }
 
-theStallionProfile.situationShip = "Trey Songz"
+theStallionProfile.situationShip = "Trey Songz";
 ```
 
 In this example, Megan Thee Stallion’s profile shares some industry knowledge about her life. As a person, Megan Thee Stallion always expresses her relationship status as single; however, she has situations. In her NPR debut, her newly released song discussed the following: “Everyone wants to know who Megan’s dating, but that depends on whatever the day is.” She has situations in different time zones, area codes, and weekdays so it really depends. What remains <strong>constant</strong> is Megan will have situations and interested men have to be okay with that. So back to JavaScript, as a `const` variable, Megan will remain the fluid individual she is. That stance on her profile will never change. However, her properties can definitely change (MoneyBagYo, Trey Songz, European Papi out in Italy, Man in Texas, West Coast Thang, and etc.)
