@@ -1,6 +1,6 @@
 # Const Variables
 
-Const is a blocked scope variable which maintains constant values. Const cannot be updated or re-declared.
+Const is a block scoped variable which maintains constant values. Const cannot be updated or re-declared.
 
 ``` JavaScript 
 const meganFullName = "Hi, I'm Megan Jovon Ruth Pete."
