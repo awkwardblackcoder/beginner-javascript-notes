@@ -83,7 +83,7 @@ or:
     console.log(beyonce); // Hi, I'm Beyonce Carter.
 ```
 
-For JavaScript, this throws no error. However, for the programmer this can be problematic. We expect `beyonce` to equal `"Hi, I'm Beyonce Knowles."`, but later in our JavaScript code, we redefined it and JavaScript threw no errors. This can lead to unintended side-effects and we should be very careful when using `var` to declare variables.
+We may expect `beyonce` to equal `"Hi, I'm Beyonce Knowles."`, but later in our JavaScript code, we redefined it to `"Hi, I'm Beyonce Carter."` and JavaScript threw no errors. This can lead to unintended side-effects and we should be very careful when using `var` to declare variables.
 
 
-This is why the <strong>let</strong> and <strong>const</strong> variable is an important addition to our JavaScript arsenal!
+This is why the <strong>let</strong> and <strong>const</strong> variable is an important addition to our JavaScript arsenal! It will never disrespect your intelligence like the `var` variable.
