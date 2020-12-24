@@ -6,7 +6,7 @@ JavaScript variables are containers for storing data values. Before ES6, `var` w
 
 Creating a variable in JavaScript is called "declaring" a variable.
 
-You declare a JavaScript variable with the `var`, `let`, or `const` keyword (Today, we will focus on `var`)
+You declare a JavaScript variable with the `var`, `let`, or `const` keyword. (Today, we will focus on `var`.)
 
 Here's an example of declaring a variable:
 ```JavaScript
