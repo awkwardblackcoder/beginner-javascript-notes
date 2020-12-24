@@ -36,4 +36,4 @@ if (currentYear <= 2015 && currentYear >= 2013) {
 console.log(ciara); // My husband is Russell Wilson.
 ```
 
-In 2013-2015, Ciara was ALL about Future but in `currentYear` 2019, her husband is Russell Wilson. Ciara is only in love with future within the scope of 2013-2015.
+In 2013-2015, Ciara was ALL about Future but in `currentYear` 2019, her husband is Russell Wilson. Ciara is only in love with Future within the scope of 2013-2015.
