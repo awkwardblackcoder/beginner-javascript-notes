@@ -18,6 +18,12 @@ Function Call Statement
 
 ``` console.log('Hey, Lenora'); ```
 
+Code Blocks are bound by curly brackets so they don't need the semicolon. Things like function definitions, if, and loops follow this pattern.
+
+if (age > 10) {
+  console.log('You are old');
+}
+
 
 
 
