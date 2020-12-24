@@ -2,7 +2,7 @@
 
 JavaScript variables are containers for storing data values. Before ES6, `var` was the only way to create variable declarations.
 
-<ins>How to create a variable?</ins>
+### How to create a variable?
 
 Creating a variable in JavaScript is called "declaring" a variable.
 
@@ -28,7 +28,7 @@ To <strong>assign</strong> a value to the variable, use the equal sign:
 4. `'lenora'` is the string we are setting the variable to.
 5. The `;` lets our computer know we have ended the statement.
 
-Var declarations are global scope or function/local scope. 
+### Var declarations are global scope or function/local scope. 
 
 <strong>Global Scope:</strong> All scripts and functions on a web page can access it. 
 
