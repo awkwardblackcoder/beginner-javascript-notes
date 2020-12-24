@@ -13,7 +13,7 @@ Here's an example of declaring a variable:
     var firstName;
 ```
 
-After the declaration, the variable has no value (technically it has the value of undefined).
+After the declaration, the variable has no value (Technically, it has the value of `undefined`).
 
 To <strong>assign</strong> a value to the variable, use the equal sign:
 ```JavaScript
