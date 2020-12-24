@@ -38,12 +38,12 @@ if (age > 10) {
 
 <ins>Types of loop statements</ins>
 
-`for` Statement
-`do`...`while` Statement
-`while` Statement
-`label` Statement
-`break` Statement
-`continue` Statement
+1. `for` Statement
+2. `do`...`while` Statement
+3. `while` Statement
+4. `label` Statement
+5. `break` Statement
+6. `continue` Statement
 
 
 
@@ -51,13 +51,13 @@ if (age > 10) {
 ### Object Manipulation Statements
 
 <ins>Types of Obj Manipulation statements</ins>
-`for`…`in` Statement
-`for each`…`in` Statement
+1. `for`…`in` Statement
+2. `for each`…`in` Statement
 
 ### Exception Handling Statements
 
 <ins>Types of Exception Handling statements</ins>
-`throw` Statement
-`try`…`catch` Statement
+1. `throw` Statement
+2. `try`…`catch` Statement
 
 
