@@ -12,15 +12,15 @@ You declare a JavaScript variable with the `var`, `let`, or `const` keyword (Tod
 
 After the declaration, the variable has no value (technically it has the value of undefined).
 
-To assign a value to the variable, use the equal sign:
+To <strong>assign</strong> a value to the variable, use the equal sign:
 
     var first = 'lenora';
     
 Var declarations are global scope or function/local scope. 
 
-Global Scope: All scripts and functions on a web page can access it. 
+<strong>Global Scope:</strong> All scripts and functions on a web page can access it. 
 
-Function/Local scope: They can only be accessed from within the function.
+<strong>Function/Local scope:</strong> They can only be accessed from within the function.
 
 
 To understand this further, look at the example below:
@@ -50,7 +50,7 @@ We will get an error because Jay Z is not available outside the function and als
 
 Also, the beyonce variable inside the onStage() function can only be accessed inside the function. Outside of the function, beyonce's value is "Hi, I'm Beyonce!". She can't be Sasha Fierce until she's onStage() or until onStage() function is called.
 
-<ins>As you can see within the above variable, var can be re-declared and updated.</ins>
+<ins>As you can see within the above variable, var can be <strong>re-declared</strong> and <strong>updated</strong>.</ins>
 
 
 That means we can do something like this:
@@ -67,4 +67,4 @@ or:
 For JavaScript, this throws no error. However, for the programmer this can be problematic. We expect beyonce to equal "Hi, I'm Beyonce Knowles.", but later in our JavaScript code, we redefined it and JavaScript said nothing! This can lead to unintended side-effects and we should be very careful when using `var` to declare variables.
 
 
-This is why the let and const variable is an important addition to our JavaScript arsenal!
+This is why the <strong>let</strong> and <strong>const</strong> variable is an important addition to our JavaScript arsenal!
