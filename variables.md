@@ -43,6 +43,7 @@ Here, the variable beyonce has a global scope and it is currently sitting outsid
       beyonce = “I am... Sasha Fierce”;
       var JayZ = "I am out of breath!";
     }
+    
     console.log(JayZ); // error: JayZ is not defined
     console.log(beyonce); // Hi, I'm Beyonce!
 
