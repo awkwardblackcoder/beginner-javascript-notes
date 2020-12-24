@@ -16,11 +16,12 @@ Variable Declaration Statement
 var first = 'lenora';
 ```
 
-Function Call Statement
+### Function Call Statement
 
 ```JavaScript 
 console.log('Hey, Lenora');
 ```
+### Block Statement
 
 Code Blocks are bound by curly brackets so they don't need the semicolon. Things like function definitions, if, and loops follow this pattern.
 
@@ -30,5 +31,33 @@ if (age > 10) {
 }
 ```
 
+### Conditional Statements
+
+
+### Loop Statements
+
+<ins>Types of loop statements</ins>
+
+`for` Statement
+`do`...`while` Statement
+`while` Statement
+`label` Statement
+`break` Statement
+`continue` Statement
+
+
+
+
+### Object Manipulation Statements
+
+<ins>Types of Obj Manipulation statements</ins>
+`for`…`in` Statement
+`for each`…`in` Statement
+
+### Exception Handling Statements
+
+<ins>Types of Exception Handling statements</ins>
+`throw` Statement
+`try`…`catch` Statement
 
 
