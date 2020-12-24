@@ -42,11 +42,11 @@ To understand this further, look at the example below:
     
     function onStage() {
       beyonce = “I am... Sasha Fierce”;
-      var JayZ = "I am out of breath!"; // Functionally Scoped
+      var jayZ = "I am out of breath!"; // Functionally Scoped
     }
 ```
 
-Here, the variable beyonce has a global scope and it is currently sitting outside the function. The Jay Z variable has a function scope and it sits inside the function. So, if we do something like this:
+Here, the variable `beyonce` has a global scope and it is currently sitting outside the function. The `jayZ` variable has a function scope and it sits inside the function. So, if we do something like this:
 
 
 ```JavaScript
@@ -54,10 +54,10 @@ Here, the variable beyonce has a global scope and it is currently sitting outsid
     
     function onStage() {
       beyonce = “I am... Sasha Fierce”;
-      var JayZ = "I am out of breath!";
+      var jayZ = "I am out of breath!";
     }
     
-    console.log(JayZ); // error: JayZ is not defined
+    console.log(jayZ); // error: jayZ is not defined
     console.log(beyonce); // Hi, I'm Beyonce!
 ```
 We will get an error because Jay Z is not available outside the function and also Jay Z has no business being out of breath off stage. Keep up Jay Z, geesh! Jay Z would only be available when the onStage() function is called.
