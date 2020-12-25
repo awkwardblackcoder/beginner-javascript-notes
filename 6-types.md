@@ -86,9 +86,31 @@ To access our properties, we use the dot notation.
 `person.age // 75`
 
 ## Null and Undefined
+Null is the value of nothing, while Undefined is a variable that hasn't been defined.
+
+```JavaScript
+let ecostyler; // undefined
+const emptyEcostylerJar = null; // nothing
+```
 
 
 ## Booleans and Equality
+
+Boolean is something either true or false.
+
+```JavaScript
+let goodWashAndGo = false;
+let needHairDone = true;
+```
+
+What is the difference between double equals `==` and triple equals `===`?
+=== checks type and value
+== only checks value
+
+```JavaScript
+"10" == 10 // true
+"10" === 10 // false
+```
 
 ## Symbols
 
