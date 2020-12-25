@@ -70,7 +70,7 @@ JavaScript is a bit weird in this particular case.
 0.1 + 0.2; // 0.30000000000000004
 ```
 
-If you visit [https://0.30000000000000004.com/(https://0.30000000000000004.com/), you will see exactly how this works.
+If you visit [https://0.30000000000000004.com/](https://0.30000000000000004.com/), you will see exactly how this works.
 
 ## Objects
 
