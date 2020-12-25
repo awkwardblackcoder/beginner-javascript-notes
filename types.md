@@ -23,6 +23,15 @@ const development = `Heroku Frontend Design`;
 
 ## Numbers
 
+Unlike other programming languages, JavaScript only has one type of number.
+
+Although we have floats, whole numbers, etc. are all the `typeOf` number.
+
+```JavaScript
+let age = 10;
+typeOf age; // number
+```
+
 ## Objects
 
 ## Null and Undefined
