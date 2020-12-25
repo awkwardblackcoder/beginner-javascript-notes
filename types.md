@@ -54,7 +54,7 @@ Math.random(); // 0.5037997751582997
 
 More Math helpers [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math).
 
-Let's say we have 3 children and 20 pieces of oxtails in the pot. How would we split them up evenly so that no kid feels like the other has more?
+Let's say we have 3 children and 25 pieces of oxtails in the pot. How would we split them up evenly so that no kid feels like the other has more?
 
 ```JavaScript
 const oxtails = 25;
