@@ -74,8 +74,21 @@ If you visit [https://0.30000000000000004.com/](https://0.30000000000000004.com/
 
 ## Objects
 
+```JavaScript
+const person = {
+    first: 'Lenora',
+    last:  'Porter',
+    age:   '75'
+}
+```
+
+To access our properties, we use the dot notation.
+`person.age // 75`
+
 ## Null and Undefined
 
 
 ## Booleans and Equality
+
+## Symbols
 
