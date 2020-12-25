@@ -31,7 +31,7 @@ Although we have floats, whole numbers, etc. are all the `typeOf` number.
 const age = 10.5;
 typeof age; // number
 ```
-
+### [Arithmetic Operators](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math#Arithmetic_operators)
 There is multiplication, addition, subtraction, division, exponents and modulo a.k.a remainder.
 
 |  Operator  |      Name      |                                                                         Purpose                                                                        |  Example  |
