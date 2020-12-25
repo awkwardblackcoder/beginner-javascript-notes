@@ -52,6 +52,19 @@ Math.ceil(100.2); // 101
 Math.random(); // 0.5037997751582997
 ```
 
+More Math helpers [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math).
+
+Let's say we have 3 children and 20 pieces of oxtails in the pot. How would we split them up evenly so that no kid feels like the other has more?
+
+```JavaScript
+const oxtails = 25;
+const children = 3;
+const eachChildGets = Math.floor(oxtails / children);
+const eldersGet = oxtails % children;
+console.log(`Each child gets ${eachChildGets} while the elders are left with ${eldersGet}`); // Each child gets 8 while the elders are left with 1
+
+```
+
 ## Objects
 
 ## Null and Undefined
