@@ -74,24 +74,47 @@ If you visit [https://0.30000000000000004.com/](https://0.30000000000000004.com/
 
 ## Objects
 
+JavaScript objects are containers for named values called properties or methods. Objects are variables too. But objects can contain many values.
+
+The values are written as `name: value` pairs (name and value separated by a colon).
+
+This code assigns many values (name, stageName, Children) to a variable named theeStallionProfile:
+
 ```JavaScript
-const person = {
-    first: 'Lenora',
-    last:  'Porter',
-    age:   '75'
-}
+    const theeStallionProfile = {
+        name: "Megan Pette",
+        stageName: "Megan Thee Stallion",
+        children: {
+          human: 0,
+          pets: {
+            name: "4oe",
+            breed: "French Bulldog"
+        }
+      }
+    }
 ```
 
-To access our properties, we use the dot notation.
-`person.age // 75`
+To accessproperties, we use the dot notation.
+```Javascript
+theeStallionProfile.name // Megan Pete
+```
 
 ## Null and Undefined
-Null is the value of nothing, while Undefined is a variable that hasn't been defined.
+There are two ways to express nothing in JavaScript: null and undefined. 
+
+Undefined comes about when you try to access a variable that is created but not set. (No value)
 
 ```JavaScript
-let ecostyler; // undefined
-const emptyEcostylerJar = null; // nothing
+    let dog;
+    console.log(dog); // undefined
+```            
+Null comes about when your value is set to null.
+
+```JavaScript
+    let dog = null;
+    console.log(dog); // null
 ```
+
 
 
 ## Booleans and Equality
@@ -104,8 +127,9 @@ let needHairDone = true;
 ```
 
 What is the difference between double equals `==` and triple equals `===`?
-=== checks type and value
-== only checks value
+`=` to set a value
+`==` Checks value and not type
+`===` Checks the value of the first and second to make sure the values are the same && check the type!
 
 ```JavaScript
 "10" == 10 // true
