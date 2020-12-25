@@ -40,10 +40,17 @@ There is multiplication, addition, subtraction, division, exponents and modulo a
 |     -      |   Subtraction  |                                                  Subtraction	Subtracts the right number from the left.                                                |  20 - 15  |
 |     *      | Multiplication |                                                       Multiplication	Multiplies two numbers together.                                                 |   3 * 7   |
 |     /      |     Division   |                                                             Divides the left number by the right.                                                      |  10 / 5   |
-|     %      |    Remainder   |         Returns the remainder left over after you've divided the left number into a number of integer portions equal to the right number.              |   8 % 3   |
+|     %      |     Modulo     |         Returns the remainder left over after you've divided the left number into a number of integer portions equal to the right number.              |   8 % 3   |
 |     **     |    Exponent    | Raises a base number to the exponent power, that is, the base number multiplied by itself, exponent times. It was first Introduced in EcmaScript 2016. |  5 ** 2   |
     
+### Most popular Math helpers
 
+```JavaScript
+Math.round(20.5); // 21
+Math.floor(30.6); // 30
+Math.ceil(100.2); // 101
+Math.random(); // 0.5037997751582997
+```
 
 ## Objects
 
