@@ -62,8 +62,15 @@ const children = 3;
 const eachChildGets = Math.floor(oxtails / children);
 const eldersGet = oxtails % children;
 console.log(`Each child gets ${eachChildGets} while the elders are left with ${eldersGet}`); // Each child gets 8 while the elders are left with 1
-
 ```
+
+JavaScript is a bit weird in this particular case.
+
+```Javascript
+0.1 + 0.2; // 0.30000000000000004
+```
+
+If you visit [https://0.30000000000000004.com/(https://0.30000000000000004.com/), you will see exactly how this works.
 
 ## Objects
 
