@@ -28,9 +28,22 @@ Unlike other programming languages, JavaScript only has one type of number.
 Although we have floats, whole numbers, etc. are all the `typeOf` number.
 
 ```JavaScript
-let age = 10;
-typeOf age; // number
+const age = 10.5;
+typeof age; // number
 ```
+
+There is multiplication, addition, subtraction, division, exponents and modulo a.k.a remainder.
+
+|  Operator  |      Name      |                                                                         Purpose                                                                        |  Example  |
+|------------|:--------------:|-------------------------------------------------------------------------------------------------------------------------------------------------------:|----------:|
+|     +      |    Addition    |                                                                   Adds two numbers together.                                                           |   6 + 9   |
+|     -      |   Subtraction  |                                                  Subtraction	Subtracts the right number from the left.                                                |  20 - 15  |
+|     *      | Multiplication |                                                       Multiplication	Multiplies two numbers together.                                                 |   3 * 7   |
+|     /      |     Division   |                                                             Divides the left number by the right.                                                      |  10 / 5   |
+|     %      |    Remainder   |         Returns the remainder left over after you've divided the left number into a number of integer portions equal to the right number.              |   8 % 3   |
+|     **     |    Exponent    | Raises a base number to the exponent power, that is, the base number multiplied by itself, exponent times. It was first Introduced in EcmaScript 2016. |  5 ** 2   |
+    
+
 
 ## Objects
 
