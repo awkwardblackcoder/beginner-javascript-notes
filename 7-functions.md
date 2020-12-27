@@ -40,10 +40,10 @@ Realistic Example:
 
 ```JavaScript
 function calculateBill(billAmount, taxRate) {
-  const total = billAmount * 1 + taxRate;
+  const total = billAmount * ( 1 + taxRate );
   return total
 }
 
 const myTotal = calculateBill(350, 0.15); 
-console.log(myTotal) // $350.15
+console.log(myTotal) // $402.49999999999994
 ```
