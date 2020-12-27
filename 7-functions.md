@@ -216,3 +216,12 @@ const lenora = {
   }
 }
 ```
+
+## Callback Functions
+Callback functions are executed after a specific thing has finished. For example, after an amount of time has passed or after the user clicks something.
+
+```JavaScript
+// Click Call Back
+const button = document.querySelector('.clickMe');
+button.addEventListener('click', lenora.yellHi); // This is what is referred to as a callback. After button click, run function.
+```
