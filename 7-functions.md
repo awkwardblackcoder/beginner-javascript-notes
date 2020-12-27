@@ -98,5 +98,78 @@ function add(a, b = 3) {
 }
 
 const add = (a, b = 3) => a + b;
+```
 
+## Returning an object
+
+```JavaScript
+function makeABaby(first, last) {
+  const baby = {
+    name: `${first} ${last}`,
+    age: 0
+  }
+  return baby;
+}
+
+// Now let's turn it into an arrow function
+// Step 1
+
+const makeABaby = (first, last) => {
+ const baby = {
+    name: `${first} ${last}`,
+    age: 0
+  }
+  return baby;
+}
+
+// Step 2
+
+
+const makeABaby = (first, last) => {
+  return {
+    name: `${first} ${last}`,
+    age: 0
+  }
+}
+
+// Step 3 with implicit return with parenthesis
+
+const makeABaby = (first, last) => ({ name: `${first} ${last}`, age: 0 });
+```
+
+Now, converting a function that returns an object into an arrow function may not always be the most readable. 
+
+
+## Define a function with an IIFE
+Immediately Invoked Function Expression
+
+```JavaScript
+function() {
+  console.log('Running the Anon function');
+  return 'You are cool';
+ }
+}
+
+// Right now, this doesn't run at all. To run it, you can wrap it in a const like this:
+const x = function() {
+  console.log('Running the Anon function');
+  return 'You are cool';
+ }
+}
+
+// Or you can wrap it in a parenthesis because parenthesis always run first in JavaScript making it a IIFE. Right after, immediately run that function with ();
+
+(function() {
+  console.log('Running the Anon function');
+  return 'You are cool';
+ }
+})();
+
+
+// If you need to pass in a parameter, you will do it like this:
+(function(age) {
+  console.log('Running the Anon function');
+  return `You are cool and age ${age}`;
+ }
+})(10);
 ```
