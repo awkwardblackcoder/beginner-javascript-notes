@@ -197,5 +197,22 @@ console {debug: ƒ, error: ƒ, info: ƒ, log: ƒ, warn: ƒ, …}
   group: ƒ group()
 ```
 
+How to declare a method:
 
-
+```JavaScript
+const lenora = { 
+  name: 'Lenora Porter',
+  sayHi: functon() {
+    console.log('Hey Lenora');
+    return 'Hey Lenora';
+  },
+  // Short hand Method by removing the function keyword and colon
+  yellHi() {
+    console.log('HEY LENORA');
+  },
+  // Arrow Function
+  whisperHi: () => {
+    console.log('hi lenora im a ghost');
+  }
+}
+```
