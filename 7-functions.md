@@ -173,3 +173,29 @@ const x = function() {
  }
 })(10);
 ```
+
+## Methods
+A method is a function that lives inside an object
+
+For example, `console.log();` is a method.
+
+`console` is an object that lives inside the function `log()`;
+
+If you run `console` in your Chrome Dev Tools, you will see what I mean.
+
+```JavaScript
+console {debug: ƒ, error: ƒ, info: ƒ, log: ƒ, warn: ƒ, …}
+  assert: ƒ assert()
+  clear: ƒ clear()
+  context: ƒ context()
+  count: ƒ count()
+  countReset: ƒ countReset()
+  debug: ƒ debug()
+  dir: ƒ dir()
+  dirxml: ƒ dirxml()
+  error: (...args) => {…}
+  group: ƒ group()
+```
+
+
+
