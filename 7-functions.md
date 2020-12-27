@@ -35,3 +35,15 @@ function bombAssWashAndGo(param1) { // The open curly bracket starts the functio
 // Function Call
 bombAssWashAndGo();
 ```
+
+Realistic Example:
+
+```JavaScript
+function calculateBill(billAmount, taxRate) {
+  const total = billAmount * 1 + taxRate;
+  return total
+}
+
+const myTotal = calculateBill(350, 0.15); 
+console.log(myTotal) // $350.15
+```
