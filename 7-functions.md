@@ -224,4 +224,39 @@ Callback functions are executed after a specific thing has finished. For example
 // Click Call Back
 const button = document.querySelector('.clickMe');
 button.addEventListener('click', lenora.yellHi); // This is what is referred to as a callback. After button click, run function.
+
+// OR
+
+const button = document.querySelector('.clickMe');
+
+function handleClick() {
+  console.log('Handling the click');
+}
+
+button.addEventListener('click', handleClick); // Another example of a callback.
+
+
+// You can also pass in an anonymous function directly
+
+button.addEventListener('click', function() {  // Another example of a callback.
+  console.log ('Nice Job');
+});
+ 
+// Timer CallBack
+setTimeout(lenora.yellHi, 1000);
+
+// or we can pass in an anonymous function
+
+setTimeout(function() {
+  console.log('Done!);
+  }, 
+ 1000
+);
+
+// arrow function
+setTimeout(() => {
+  console.log('Done!);
+  }, 
+ 1000
+);
 ```
