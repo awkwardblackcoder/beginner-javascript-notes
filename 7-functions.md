@@ -1,6 +1,6 @@
 # Functions
 
-<ins>Built-In Functions</ins>
+## <ins>Built-In Functions</ins>
 ```JavaScript
 console.log()
 parseFloat()
@@ -22,3 +22,5 @@ function bombAssWashAndGo() {
 // Function Call
 bombAssWashAndGo();
 ```
+
+## Writing custom functions
