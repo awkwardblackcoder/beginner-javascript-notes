@@ -14,9 +14,10 @@ function doctorize(name) {
 }
 
 function doAlotOfStuff() {
-  console.group('Start doing things');
+  console.groupCollapsed('Start doing things');
   console.warn('Warn me about things');
   console.error('Watch out for all errors');
+  console.log('Done!');
   console.groupEnd();
 }
 
@@ -28,4 +29,22 @@ console.count(); // Run the doctorize function and see how it maintains how many
 console.group(); // Running a group of console methods
 ```
 
+
+## Call Stack or Stack Tracing
+
+```JavaScript
+function doctorize(name) {
+  return `Dr. ${name}`;
+}
+
+function greet(name) {
+  doesntExist(); // Cause an error
+  return `Hello ${name}`;
+}
+
+function go() {
+  const name = doctorize(greet('Wes'));
+  console.log(name);
+}
+```
 
