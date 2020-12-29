@@ -48,3 +48,5 @@ function go() {
 }
 ```
 
+<img src="stack-tracing.png" />
+
