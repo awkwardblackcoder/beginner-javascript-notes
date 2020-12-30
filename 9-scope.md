@@ -36,5 +36,19 @@ function badWashAndGo() {
 console.log(goodWashAndGo); // true
 console.log(products); // Uncaught ReferenceError: products is not defined
 
+```
 
+`products` has only been defined in the function scope so we are not allowed to access that variable globally. However, we can access global variables inside the function scope.
+
+```JavaScript
+const goodWashAndGo = true;
+
+function badWashAndGo() {
+  const products = 'Cantu';
+  
+  console.log(goodWashAndGo); // true
+  console.log(products); // Cantu
+}
+
+badWashAndGo();
 ```
