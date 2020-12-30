@@ -136,5 +136,9 @@ Just means I ran it from Google Dev Tools Console. However, if I run it in the c
 
 <img src="stack-tracing-2.png" />
 
+## Grabbing Elements
 
+You can open your Google Chrome Dev Tools, select the element in the elements tab, switch over to console, type `$0` and the console will return the element. You can then run `$0.value` or any other method against it to debug.
+
+<img src="grabbing-elements.png" />
 
