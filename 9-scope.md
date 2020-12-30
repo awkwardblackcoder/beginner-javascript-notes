@@ -66,12 +66,16 @@ console.log(greatDay); // Uncaught ReferenceError: greatDay is not defined
 
 ```JavaScript
 if (1 === 1) {
-  const greatDay = true;  // Uncaught ReferenceError: greatDay is not defined
+  const greatDay = true;
 }
+
+console.log(greatDay); // Uncaught ReferenceError: greatDay is not defined
 ```
 
 ```JavaScript
 if (1 === 1) {
-  var greatDay = true;  // true
+  var greatDay = true;
 }
+
+console.log(greatDay);  // true 
 ```
