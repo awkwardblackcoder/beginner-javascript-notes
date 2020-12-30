@@ -162,3 +162,6 @@ You can also add breakpoints by clicking on the line.
 
 The network tab can be extremely useful when finding out where your program went to fetch data or how long it took to fetch or load data.
 <img src="network-tab.png" />
+
+## Break on attribute
+
