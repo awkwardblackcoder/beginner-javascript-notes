@@ -79,3 +79,5 @@ if (1 === 1) {
 
 console.log(greatDay);  // true 
 ```
+
+`var` variables are not block scope. They are function scope. `let` and `const` is block scope.
