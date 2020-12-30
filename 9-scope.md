@@ -52,3 +52,26 @@ function badWashAndGo() {
 
 badWashAndGo();
 ```
+
+## Var, Let, and Const variables are scoped differently
+
+```JavaScript
+if (1 === 1) {
+  let greatDay = true;
+}
+
+console.log(greatDay); // Uncaught ReferenceError: greatDay is not defined
+```
+
+
+```JavaScript
+if (1 === 1) {
+  const greatDay = true;  // Uncaught ReferenceError: greatDay is not defined
+}
+```
+
+```JavaScript
+if (1 === 1) {
+  var greatDay = true;  // true
+}
+```
