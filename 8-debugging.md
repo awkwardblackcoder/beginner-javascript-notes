@@ -48,5 +48,25 @@ function go() {
 }
 ```
 
+<img src="stack-tracing-code.png" />
+
 <img src="stack-tracing.png" />
+
+If you want to know what went wrong in your code, you have to get good at reading the call stack.
+
+Let's read the stack trace above:
+
+The error happened at `greet` in the file `debugging-FINISH.js` on line 32.
+
+Well, who called `greet`?
+
+Let's keep reading. `go` called `greet` in the file `debugging-FINISH.js` on line 37.
+
+Then it says `<anonymous>:1:1`. What does that mean?
+
+Just means I ran it from Google Dev Tools Console. However, if I run it in the code, the error would look like this.
+
+<img src="stack-tracing-2.png" />
+
+
 
