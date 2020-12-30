@@ -96,10 +96,6 @@ EMPTY
 In summary, then, we start with an empty Call Stack. Whenever we invoke a function, it is automatically added to the Call Stack. Once the function has executed all of its code, it is automatically removed from the Call Stack. Ultimately, the Stack is empty again.
 
 
-
-
-In other words, a call stack is a stack data structure that stores information about the active subroutines of a computer program.
-
 Okay, so what's a <strong>stack</strong> trace?
 
 A stack trace is a report of the active stack frames at a certain point in time during the execution of a program.
