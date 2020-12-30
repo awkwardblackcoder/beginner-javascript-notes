@@ -48,8 +48,6 @@ function go() {
 }
 ```
 
-<img src="stack-tracing-code.png" />
-
 <img src="stack-tracing.png" />
 
 If you want to know what went wrong in your code, you have to get good at reading the call stack.
