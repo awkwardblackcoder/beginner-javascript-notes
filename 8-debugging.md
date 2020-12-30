@@ -138,7 +138,27 @@ Just means I ran it from Google Dev Tools Console. However, if I run it in the c
 
 ## Grabbing Elements
 
-You can open your Google Chrome Dev Tools, select the element in the elements tab, switch over to console, type `$0` and the console will return the element. You can then run `$0.value` or any other method against it to debug.
+You can open your Google Chrome Dev Tools, select the element in the elements tab, switch over to console, type `$0` and the console will return the element. You can then run `$0.value` or any other method against it to debug. `$0` is the last element clicked.
 
 <img src="grabbing-elements.png" />
 
+## Adding in breakpoints
+
+`debugger;` is one of the most popular breakpoints to help you pause JavaScript while it is running.
+
+<img src="debugger.png" />
+
+It starts out by telling you what the variables are equal to, on the right side it shows the call stack, the scope (local and global variables), and a few other things. 
+
+You can click the play button and you'll see how it continues.
+
+You can also click the step over to another function button to step through line by line.
+
+You can also add breakpoints by clicking on the line.
+
+<img src="inline-breakpt.png" />
+
+## Network Request
+
+The network tab can be extremely useful when finding out where your program went to fetch data or how long it took to fetch or load data.
+<img src="network-tab.png" />
